@@ -19,7 +19,7 @@
         <module>bson</module>
     </modules>
 
-    <groupId>${rookit.group}.rookit-serializer</groupId>
+    <groupId>com.github.JPDSousa.rookit-serializer</groupId>
     <artifactId>rookit-serializer</artifactId>
 
     <name>Rookit Serializer</name>
