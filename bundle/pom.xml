@@ -2,26 +2,29 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
-    <modelVersion>4.0.0</modelVersion>
-
     <parent>
         <groupId>com.github.JPDSousa.rookit-serializer</groupId>
         <artifactId>rookit-serializer</artifactId>
         <version>-SNAPSHOT</version>
     </parent>
+    <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>bson</artifactId>
-    <name>Rookit Serializer Bson</name>
+    <artifactId>bundle</artifactId>
+
+    <name>Rookit Serializer Bundle</name>
 
     <dependencies>
         <dependency>
-            <groupId>${rookit.group}.rookit-serializer</groupId>
-            <artifactId>api</artifactId>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.mongodb</groupId>
+            <groupId>${rookit.group}.rookit-serializer</groupId>
             <artifactId>bson</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>${rookit.group}.rookit-serializer</groupId>
+            <artifactId>json</artifactId>
         </dependency>
     </dependencies>
 
